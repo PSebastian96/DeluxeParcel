@@ -1,0 +1,91 @@
+.nav-link {
+  color: rgb(55, 194, 13);;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color:rgb(38, 238, 38);
+}
+
+.text-green {
+  color: rgb(55, 194, 13);
+}
+
+.txt-green {
+  color: rgb(55, 194, 13);
+}
+
+.text-green:hover {
+  color: rgb(38, 238, 38);
+}
+
+.icon-green {
+  color: rgb(13, 172, 13);
+}
+
+.icon-green:hover {
+  color: rgb(38, 238, 38);
+}
+
+.btn-purple {
+  background-color: purple;
+  color: white;
+}
+
+.btn-purple:hover {
+  background-color: rgb(209, 3, 209);
+  color: white;
+}
+
+.text-purple {
+  color: rgb(139, 1, 139);
+}
+
+.text-purple:hover { 
+  color: rgb(209, 3, 209);
+}
+
+.img-size {
+  height: 400px;
+  width: 400px;
+}
+
+.my-bg {
+  width: 320px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.bg-purple {
+  background: rgb(68, 24, 139);
+}
+
+.bg-blue {
+  background: rgb(12, 79, 141);
+}
+
+.bg-navy {
+  background-color: navy;
+}
+
+.testimonials{
+  padding: 5rem 0;
+}
+
+.testimonial-card{
+  width: 50%;
+}
+
+.bg-gray {
+  background-color: rgb(51, 50, 50);
+}
+
+.nav-link.active {
+  color: #00ff00 !important; /* Change this color to whatever you prefer */
+  font-weight: bold;
+  text-decoration: underline; /* Optional */
+}
