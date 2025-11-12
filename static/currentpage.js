@@ -30,4 +30,10 @@ document.addEventListener("DOMContentLoaded", function() {
     // Initial highlight on page load in case the page is already scrolled
     highlightCurrentLink();
   });
-  
+
+document.addEventListener("DOMContentLoaded", function() {
+    const yearSpan = document.getElementById("year");
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear();
+    }
+});
